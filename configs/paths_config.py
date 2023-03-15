@@ -1,6 +1,6 @@
 DATASET_PATHS = {
 	'FFHQ': 'data/celeba_hq/',
-	'CelebA_HQ': 'data/celeba_hq/',
+	'CelebA_HQ': '/home/zyq/2022_new/main/ESPM/results/11_07_01/meta_face/stroke',
 	'AFHQ': 'data/afhq',
 	'LSUN':  'data/lsun',
     'IMAGENET': 'data/imagenet/',

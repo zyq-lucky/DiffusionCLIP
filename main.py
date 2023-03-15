@@ -153,6 +153,8 @@ def parse_args_and_config():
     args.image_folder = os.path.join(args.exp, 'image_samples')
     if not os.path.exists(args.image_folder):
         os.makedirs(args.image_folder)
+        os.makedirs(os.path.join(args.exp,"single"))
+        os.makedirs(os.path.join(args.exp,"mid"))
     else:
         overwrite = False
         if args.ni:
